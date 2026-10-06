@@ -89,9 +89,9 @@ if generate_button:
 
         with st.spinner("Analyzing color theory and trends..."):
             try:
-                # Using the recommended gemini-2.5-flash model for fast, accurate text responses
+                # Using the recommended gemini-3.8-flash model for fast, accurate text responses
                 response = client.models.generate_content(
-                    model='gemini-2.5-flash',
+                    model='gemini-3.8-flash',
                     contents=prompt,
                 )
                 
